@@ -1,0 +1,4 @@
+[03-Jul-2013 11:48:26 America/Chicago] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW, expecting ',' or ';' in /home/startupw/public_html/cellar/api/index.php on line 49
+[03-Jul-2013 11:48:59 America/Chicago] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW, expecting ',' or ';' in /home/startupw/public_html/cellar/api/index.php on line 49
+[03-Jul-2013 11:49:28 America/Chicago] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW, expecting ',' or ';' in /home/startupw/public_html/cellar/api/index.php on line 49
+[03-Jul-2013 13:12:07 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/startupw/public_html/cellar/api/index.php on line 93

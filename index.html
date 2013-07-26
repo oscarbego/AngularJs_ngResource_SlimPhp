@@ -1,0 +1,40 @@
+<?php
+  header('Access-Control-Allow-Origin: *');
+?>
+
+<!doctype html>
+<html ng-app="projects">
+  <head>
+    <meta charset="utf-8">
+    <title ng-bind="title" ng-cloak>Restaurant &mdash;</title>
+
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  </head>
+
+  <body ng-controller="ProjectListCtrl">
+    <a class="brand" href="#">Projects Manager</a>
+
+    <div id="app-container" class="container-fluid">
+      <div class="row-fluid">
+
+        <div class="span12" id="main" ng-view>
+
+        </div><!--/.span12-->
+      </div><!--/.row-fluid-->
+      <footer>Copyright Projects &copy; 2013</footer>
+    </div><!--/.container-->
+
+
+    <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js">
+    </script>
+
+    <!-- Don't forget to load angularjs AND angular-resource.js --> 
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.js">
+    </script>
+
+    <!--Controllers-->
+    <script src="app.js"></script>
+  </body>
+</html>

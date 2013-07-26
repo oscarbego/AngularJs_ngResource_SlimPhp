@@ -1,0 +1,11 @@
+<a href="#/add/" class="btn">Add new item</a>
+<hr>
+<ul class="unstyled">
+    <li ng-repeat="project in projects">
+    <div class="well">    
+      <h2><small>id: {{project.id}}</small> {{project.name}}</h2>
+      <a href="#/detail/{{project.id}}" class="btn btn-link"><h4>View Info </h4></a> or <a ng-click="delete(project, $index)" class="btn btn-link"><h4>Delete Project</h4></a>
+      or <a href="#/add/{{project.id}}" class="btn btn-link"><h4>UpDate Project</h4></a>
+    </div>
+  </li>
+</ul>
